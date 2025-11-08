@@ -105,7 +105,7 @@ Backend (if applicable): Future scope
 
 ### 📎 Author
 
-Developed by **Shaldon Barnes and Anish Bhat** as part of innovation program activities & UI design experience.
+Developed by **Shaldon Barnes** and **Anish Bhat** as part of innovation program activities & UI design experience.
 
 ---
 
