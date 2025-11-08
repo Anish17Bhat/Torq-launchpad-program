@@ -1,10 +1,4 @@
-const navLinks = [
-  { name: "Highlights", href: "#highlights" },
-  { name: "Timeline", href: "#timeline" },
-  { name: "Benefits", href: "#benefits" },
-  { name: "About", href: "#about" },
-  { name: "Contact", href: "#contact" },
-];
+import img1 from '../assets/structured_innovation.webp';
 
 export default function Landing() {
   return (
@@ -18,7 +12,7 @@ export default function Landing() {
             style={{ border: "10px solid #FBC900", background: "rgba(251,201,0,0.1)" }}
           >
             <img
-              src="https://placehold.co/320x320/ffe/232020?text=LAB"
+              src={img1}
               alt="Lab visual"
               className="object-cover w-full h-full"
             />

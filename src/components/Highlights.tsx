@@ -1,3 +1,5 @@
+import img from '../assets/highlights_img.jpg'
+
 const highlights = [
     { label: "Hands-On Innovation Experience", icon: "https://placehold.co/52x52/FBC900/232020?text=💡" },
     { label: "Master Industry-Relevant Tools", icon: "https://placehold.co/52x52/FBC900/232020?text=🛠" },
@@ -40,7 +42,7 @@ export default function Highlights() {
                     style={{ border: "12px solid #FBC900", background: "rgba(251,201,0,.09)" }}
                 >
                     <img
-                        src="https://placehold.co/260x260/fff/232020?text=STUDENTS"
+                        src={img}
                         alt="Students"
                         className="object-cover w-full h-full"
                     />

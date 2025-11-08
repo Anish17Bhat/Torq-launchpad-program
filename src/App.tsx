@@ -4,6 +4,7 @@ import Timeline from "./components/Timeline";
 import Benefits from "./components/Benefits";
 import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact";
+import logo from './assets/logo.webp'
 
 const navLinks = [
   { name: "Highlights", href: "#highlights" },
@@ -20,7 +21,7 @@ function App() {
       <nav className="sticky top-0 z-20 bg-black bg-opacity-95 flex items-center justify-between px-4 py-3 border-b-4 border-[#FBC900] shadow-md">
         <div className="flex items-center">
           <img
-            src="/logo.png"
+            src={logo}
             alt="Torq Logo"
             className="h-9 sm:h-10 mr-0 sm:mr-4 drop-shadow-[0px_2px_4px_rgba(251,201,0,0.4)]"
             loading="lazy"
