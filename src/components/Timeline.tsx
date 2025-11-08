@@ -1,3 +1,5 @@
+import img from '../assets/timeline.jpg'
+
 const timeline = [
   { week: "Week 1", activity: "Offline kick-off, idea generation, team formation" },
   { week: "Week 2", activity: "Online: design thinking, business model" },
@@ -41,7 +43,7 @@ export default function Timeline() {
           <span className="text-black text-base mb-2 text-center">
             Engineering students (any branch), up to 80 participants passionate about innovation and prototyping.
           </span>
-          <img src="https://placehold.co/220x140/ffe/353535?text=Students" alt="Who Can Join" className="rounded-lg mt-3 drop-shadow"/>
+          <img src={img} alt="Who Can Join" className="rounded-lg mt-3 drop-shadow"/>
         </div>
       </div>
     </section>
