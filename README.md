@@ -1,4 +1,3 @@
-
 # Structured Innovation Launchpad Program Website
 
 This repository contains the landing page for the **Structured Innovation Launchpad Program**, designed to empower engineering students with hands-on innovation, prototyping skills, and entrepreneurial thinking.
