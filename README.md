@@ -37,16 +37,34 @@ This webpage provides information about the program, including:
 ## 📂 Project Structure
 
 ```
-project-root/
-|-- public/
-|-- src/
-|   |-- components/
-|   |-- assets/
-|   |-- App.jsx
-|   |-- main.jsx
-|-- package.json
-|-- tailwind.config.js
-|-- README.md
+TORQ_INTERNSHIP/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── AboutUs.tsx
+│   │   ├── Benefits.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Highlights.tsx
+│   │   ├── Landing.tsx
+│   │   ├── RoadmapPanel.tsx
+│   │   └── Timeline.tsx
+│   │
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+├── tailwind.config.js
+├── tsconfig.app.json
+└── tsconfig.json
 ```
 
 ---
@@ -87,7 +105,7 @@ Backend (if applicable): Future scope
 
 ### 📎 Author
 
-Developed by **Shaldon Barnes** as part of innovation program activities & UI design experience.
+Developed by **Shaldon Barnes and Anish Bhat** as part of innovation program activities & UI design experience.
 
 ---
 
