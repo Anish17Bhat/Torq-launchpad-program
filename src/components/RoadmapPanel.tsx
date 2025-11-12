@@ -33,7 +33,7 @@ export function RoadmapPanel() {
         YOUR ROADMAP<br className="hidden sm:block" /> TO IMPACT
       </h3>
       <div className="flex flex-col gap-5">
-        {roadmapSteps.map((step, idx) => (
+        {roadmapSteps.map((step) => (
           <div
             key={step.label}
             className="flex items-center relative rounded-[2rem] pr-4 shadow-xl"

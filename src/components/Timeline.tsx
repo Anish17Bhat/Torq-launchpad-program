@@ -26,7 +26,7 @@ export default function Timeline() {
               </tr>
             </thead>
             <tbody>
-              {timeline.map((row, idx) => (
+              {timeline.map((row) => (
                 <tr key={row.week}>
                   <td className="px-6 py-4 border-b border-[#393939] text-white font-medium">{row.week}</td>
                   <td className="px-6 py-4 border-b border-[#393939] text-white">{row.activity}</td>
