@@ -1,8 +1,11 @@
 import img1 from '../assets/structured_innovation.webp';
+import experimind from '../assets/experiminds_img.webp'
+import cognimuse from '../assets/congniMuse.png'
+import singularity from '../assets/singularity_img.webp'
 
 export default function Landing() {
   return (
-    <section className="w-full min-h-screen bg-black flex flex-col">
+    <section id="landing" className="w-full pt-20 min-h-screen bg-black flex flex-col">
       {/* Hero Content */}
       <div className="flex flex-col md:flex-row items-center justify-between px-4 sm:px-8 md:px-14 py-12 relative bg-gradient-to-bl from-black via-[#28220d] to-[#FBC900]/20">
         {/* Circle Image */}
@@ -68,18 +71,18 @@ export default function Landing() {
           POWERED BY
         </h2>
         <div className="flex flex-wrap justify-center items-center gap-5 sm:gap-8 w-full px-4">
-          <img
-            src="https://placehold.co/100x40/fff/232020?text=EXPERIMIND"
-            className="h-10 sm:h-12 rounded bg-white shadow-md hover:scale-105 transition-transform"
+          <img 
+            src={experimind}
+            className="h-10 sm:h-12 w-10 rounded bg-white shadow-md hover:scale-105 transition-transform"
             alt="experimind"
           />
           <img
-            src="https://placehold.co/100x40/fff/232020?text=COGNIMUSE"
+            src={cognimuse}
             className="h-10 sm:h-12 rounded bg-white shadow-md hover:scale-105 transition-transform"
             alt="cognimuse"
           />
           <img
-            src="https://placehold.co/100x40/fff/232020?text=SINGULARITY"
+            src={singularity}
             className="h-10 sm:h-12 rounded bg-white shadow-md hover:scale-105 transition-transform"
             alt="singularity"
           />

@@ -1,23 +1,28 @@
+import a1 from '../assets/a1.png'
+import a2 from '../assets/a2.png'
+import a3 from '../assets/a3.png'
+import a4 from '../assets/a4.png'
+
 const roadmapSteps = [
   {
     color: "#2AA5F7",
     label: "IDEATE",
-    icon: "https://placehold.co/44x44/2AA5F7/fff?text=📝"
+    icon: a1
   },
   {
     color: "#45C266",
     label: "INNOVATE",
-    icon: "https://placehold.co/44x44/45C266/fff?text=💡"
+    icon: a2
   },
   {
     color: "#FF9000",
     label: "PROTOTYPE",
-    icon: "https://placehold.co/44x44/FF9000/fff?text=🤝"
+    icon: a3
   },
   {
     color: "#951ACB",
     label: "LAUNCH",
-    icon: "https://placehold.co/44x44/951ACB/fff?text=🚀"
+    icon: a4
   },
 ];
 

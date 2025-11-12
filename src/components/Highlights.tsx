@@ -1,11 +1,16 @@
 import img from '../assets/highlights_img.jpg'
+import h1 from '../assets/handson_img.png'
+import h2 from '../assets/highlights2.png'
+import h3 from '../assets/highlights3.png'
+import h4 from '../assets/highlights4.png'
+import h5 from '../assets/highlights5.png'
 
 const highlights = [
-    { label: "Hands-On Innovation Experience", icon: "https://placehold.co/52x52/FBC900/232020?text=💡" },
-    { label: "Master Industry-Relevant Tools", icon: "https://placehold.co/52x52/FBC900/232020?text=🛠" },
-    { label: "Build Business Model Skills", icon: "https://placehold.co/52x52/FBC900/232020?text=📈" },
-    { label: "Expert Mentorship Support", icon: "https://placehold.co/52x52/FBC900/232020?text=🧑‍🏫" },
-    { label: "Create Startup-Ready Prototypes", icon: "https://placehold.co/52x52/FBC900/232020?text=🚀" },
+    { label: "Hands-On Innovation Experience", icon: h1 },
+    { label: "Master Industry-Relevant Tools", icon: h2 },
+    { label: "Build Business Model Skills", icon: h3 },
+    { label: "Expert Mentorship Support", icon: h4},
+    { label: "Create Startup-Ready Prototypes", icon: h5 },
 ];
 
 export default function Highlights() {

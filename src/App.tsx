@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import logo from './assets/logo.webp'
 
 const navLinks = [
+  { name: "Home", href: "#landing" },
   { name: "Highlights", href: "#highlights" },
   { name: "Timeline", href: "#timeline" },
   { name: "Benefits", href: "#benefits" },
